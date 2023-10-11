@@ -57,6 +57,23 @@ class GildedRoseTest {
         assertThat(app.items[0].quality, is(quality - 2));
     }
 
+   @ Test
+    // La qualite des items classique change pas quality < 0 et sellIn < 0
+
+    void classicItemQuality4() {
+        final int quality = -1;
+        final int sellIn = -1;
+        final Item[] items = new Item[] {
+            new Item(CLASSIC_ITEM, sellIn, quality)
+        };
+
+        final GildedRose app = new GildedRose(items);
+        System.out.println(app.items[0].toString());
+        app.updateQuality();
+
+        assertThat(app.items[0].quality, is(quality));
+    }
+
     //---------------------------------------sulfurassssssssssss-------------------------------------
     // La qualite de Sulfuras ne change pas quand qualite > 0 et sellIn > 0
     @Test
