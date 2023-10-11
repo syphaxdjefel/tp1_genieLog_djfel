@@ -341,7 +341,7 @@ class GildedRoseTest {
 
     @Test
     // La qualite de Backstage ne peut pas depasser 50 qd quality = 50, sellIn >= 11
-    void backstagePassesQuality9() {
+    void backstageQuality9() {
         final int quality = 50;
         final int sellIn = 11;
         final Item[] items = new Item[] {
@@ -370,7 +370,7 @@ class GildedRoseTest {
     }
 
     @Test
-    // La qualite de Backstage est � 0 quand sellIn <= 0 et quality < 0
+    // La qualite de Backstage est 0 quand sellIn <= 0 et quality < 0
     void backstageQuality11() {
         final int quality = -10;
         final int sellIn = 0;
@@ -381,8 +381,6 @@ class GildedRoseTest {
         final GildedRose app = new GildedRose(items);
 
         app.updateQuality();
-        // affichage
-        System.out.println(app.items[0].toString());
 
         assertThat(app.items[0].quality, is(0));
     }
@@ -580,11 +578,6 @@ class GildedRoseTest {
 
         assertThat(app.items[0].sellIn, is(sellIn));
     }
-
-
-
-
-
 
 
 }
