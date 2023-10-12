@@ -1,0 +1,1527 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+
+
+<h1>GildedRose.java</h1>
+
+<table class="src">
+
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_1'/>
+1
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_1'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>package com.gildedrose;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_2'/>
+2
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_2'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_3'/>
+3
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_3'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>class GildedRose {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_4'/>
+4
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_4'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    Item[] items;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_5'/>
+5
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_5'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_6'/>
+6
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_6'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    public GildedRose(Item[] items) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_7'/>
+7
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_7'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        this.items = items;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_8'/>
+8
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_8'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_9'/>
+9
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_9'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_10'/>
+10
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_10'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public void updateQuality() {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_11'/>
+11
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_11'>2</a>
+<span>
+1. updateQuality : changed conditional boundary &rarr; KILLED<br/>
+2. updateQuality : negated conditional &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        for (int i = 0; i &#60; items.length; i++) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_12'/>
+12
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_12'>1</a>
+<span>
+1. updateQuality : removed call to com/gildedrose/GildedRose::updateQualityForItem &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>            updateQualityForItem(items[i]);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_13'/>
+13
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_13'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>        }</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_14'/>
+14
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_14'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_15'/>
+15
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_15'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_16'/>
+16
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_16'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    private void updateQualityForItem(Item item) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_17'/>
+17
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_17'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        switch (item.name) {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_18'/>
+18
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_18'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>            case &#34;Aged Brie&#34;:</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_19'/>
+19
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_19'>1</a>
+<span>
+1. updateQualityForItem : removed call to com/gildedrose/GildedRose::updateAgedBrie &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>                updateAgedBrie(item);</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_20'/>
+20
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_20'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>                break;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_21'/>
+21
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_21'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_22'/>
+22
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_22'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>            case &#34;Backstage passes to a TAFKAL80ETC concert&#34;:</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_23'/>
+23
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_23'>1</a>
+<span>
+1. updateQualityForItem : removed call to com/gildedrose/GildedRose::updateBackstagePasses &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>                updateBackstagePasses(item);</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_24'/>
+24
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_24'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>                break;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_25'/>
+25
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_25'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_26'/>
+26
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_26'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>            case &#34;Sulfuras, Hand of Ragnaros&#34;:</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_27'/>
+27
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_27'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>                // Ne rien faire, car Sulfuras ne change jamais</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_28'/>
+28
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_28'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>                break;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_29'/>
+29
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_29'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_30'/>
+30
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_30'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>            default:</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_31'/>
+31
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_31'>1</a>
+<span>
+1. updateQualityForItem : removed call to com/gildedrose/GildedRose::updateDefault &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>                updateDefault(item);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_32'/>
+32
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_32'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>                break;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_33'/>
+33
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_33'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>        }</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_34'/>
+34
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_34'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_35'/>
+35
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_35'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_36'/>
+36
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_36'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    private void updateAgedBrie(Item item) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_37'/>
+37
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_37'>2</a>
+<span>
+1. updateAgedBrie : negated conditional &rarr; KILLED<br/>
+2. updateAgedBrie : changed conditional boundary &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        if (item.quality &#60; 50) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_38'/>
+38
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_38'>1</a>
+<span>
+1. updateAgedBrie : Replaced integer addition with subtraction &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>            item.quality += 1;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_39'/>
+39
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_39'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>        }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_40'/>
+40
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_40'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_41'/>
+41
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_41'>1</a>
+<span>
+1. updateAgedBrie : Replaced integer subtraction with addition &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        item.sellIn -= 1;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_42'/>
+42
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_42'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_43'/>
+43
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_43'>4</a>
+<span>
+1. updateAgedBrie : changed conditional boundary &rarr; KILLED<br/>
+2. updateAgedBrie : changed conditional boundary &rarr; KILLED<br/>
+3. updateAgedBrie : negated conditional &rarr; KILLED<br/>
+4. updateAgedBrie : negated conditional &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        if (item.sellIn &#60; 0 &#38;&#38; item.quality &#60; 50) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_44'/>
+44
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_44'>1</a>
+<span>
+1. updateAgedBrie : Replaced integer addition with subtraction &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>            item.quality += 1;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_45'/>
+45
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_45'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>        }</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_46'/>
+46
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_46'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_47'/>
+47
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_47'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_48'/>
+48
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_48'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    private void updateBackstagePasses(Item item) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_49'/>
+49
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_49'>2</a>
+<span>
+1. updateBackstagePasses : changed conditional boundary &rarr; KILLED<br/>
+2. updateBackstagePasses : negated conditional &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        if (item.quality &#60; 50) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_50'/>
+50
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_50'>1</a>
+<span>
+1. updateBackstagePasses : Replaced integer addition with subtraction &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>            item.quality += 1;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_51'/>
+51
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_51'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_52'/>
+52
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_52'>4</a>
+<span>
+1. updateBackstagePasses : changed conditional boundary &rarr; KILLED<br/>
+2. updateBackstagePasses : changed conditional boundary &rarr; KILLED<br/>
+3. updateBackstagePasses : negated conditional &rarr; KILLED<br/>
+4. updateBackstagePasses : negated conditional &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>            if (item.sellIn &#60; 11 &#38;&#38; item.quality &#60; 50) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_53'/>
+53
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_53'>1</a>
+<span>
+1. updateBackstagePasses : Replaced integer addition with subtraction &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>                item.quality += 1;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_54'/>
+54
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_54'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>            }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_55'/>
+55
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_55'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_56'/>
+56
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_56'>4</a>
+<span>
+1. updateBackstagePasses : changed conditional boundary &rarr; KILLED<br/>
+2. updateBackstagePasses : changed conditional boundary &rarr; KILLED<br/>
+3. updateBackstagePasses : negated conditional &rarr; KILLED<br/>
+4. updateBackstagePasses : negated conditional &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>            if (item.sellIn &#60; 6 &#38;&#38; item.quality &#60; 50) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_57'/>
+57
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_57'>1</a>
+<span>
+1. updateBackstagePasses : Replaced integer addition with subtraction &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>                item.quality += 1;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_58'/>
+58
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_58'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>            }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_59'/>
+59
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_59'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>        }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_60'/>
+60
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_60'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_61'/>
+61
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_61'>1</a>
+<span>
+1. updateBackstagePasses : Replaced integer subtraction with addition &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        item.sellIn -= 1;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_62'/>
+62
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_62'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_63'/>
+63
+</td>
+<td class='survived'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_63'>2</a>
+<span>
+1. updateBackstagePasses : changed conditional boundary &rarr; SURVIVED<br/>
+2. updateBackstagePasses : negated conditional &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='survived'>        if (item.sellIn &#60; 0) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_64'/>
+64
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_64'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>            item.quality = 0;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_65'/>
+65
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_65'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>        }</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_66'/>
+66
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_66'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_67'/>
+67
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_67'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_68'/>
+68
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_68'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    private void updateDefault(Item item) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_69'/>
+69
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_69'>2</a>
+<span>
+1. updateDefault : negated conditional &rarr; KILLED<br/>
+2. updateDefault : changed conditional boundary &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        if (item.quality &#62; 0) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_70'/>
+70
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_70'>1</a>
+<span>
+1. updateDefault : Replaced integer subtraction with addition &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>            item.quality -= 1;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_71'/>
+71
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_71'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>        }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_72'/>
+72
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_72'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_73'/>
+73
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_73'>1</a>
+<span>
+1. updateDefault : Replaced integer subtraction with addition &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        item.sellIn -= 1;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_74'/>
+74
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_74'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_75'/>
+75
+</td>
+<td class='survived'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_75'>4</a>
+<span>
+1. updateDefault : changed conditional boundary &rarr; SURVIVED<br/>
+2. updateDefault : changed conditional boundary &rarr; KILLED<br/>
+3. updateDefault : negated conditional &rarr; KILLED<br/>
+4. updateDefault : negated conditional &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='survived'>        if (item.sellIn &#60; 0 &#38;&#38; item.quality &#62; 0) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_76'/>
+76
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_76'>1</a>
+<span>
+1. updateDefault : Replaced integer subtraction with addition &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>            item.quality -= 1;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_77'/>
+77
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_77'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>        }</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_78'/>
+78
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_78'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@27406a17_79'/>
+79
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_79'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>}</span></pre></td></tr>
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@27406a17_11'>11</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_11'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>updateQuality<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:classicItemQuality1()]</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>updateQuality<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:classicItemQuality1()]</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@27406a17_12'>12</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_12'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>updateQuality<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:classicItemQuality1()]</span></span> removed call to com/gildedrose/GildedRose::updateQualityForItem &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@27406a17_19'>19</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_19'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>updateQualityForItem<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:AgedBrieSellIn4()]</span></span> removed call to com/gildedrose/GildedRose::updateAgedBrie &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@27406a17_23'>23</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_23'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>updateQualityForItem<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:backstageQuality4()]</span></span> removed call to com/gildedrose/GildedRose::updateBackstagePasses &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@27406a17_31'>31</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_31'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>updateQualityForItem<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:classicItemQuality1()]</span></span> removed call to com/gildedrose/GildedRose::updateDefault &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@27406a17_37'>37</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_37'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>updateAgedBrie<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:AgedBrieQuality1()]</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>updateAgedBrie<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:AgedBrieQuality3()]</span></span> changed conditional boundary &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@27406a17_38'>38</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_38'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>updateAgedBrie<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:AgedBrieQuality1()]</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@27406a17_41'>41</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_41'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>updateAgedBrie<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:AgedBrieSellIn4()]</span></span> Replaced integer subtraction with addition &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@27406a17_43'>43</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_43'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>updateAgedBrie<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:AgedBrieQuality6()]</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>updateAgedBrie<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:AgedBrieQuality2()]</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>updateAgedBrie<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:AgedBrieQuality1()]</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>updateAgedBrie<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:AgedBrieQuality4()]</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@27406a17_44'>44</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_44'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>updateAgedBrie<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:AgedBrieQuality4()]</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@27406a17_49'>49</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_49'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>updateBackstagePasses<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:backstageQuality9()]</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>updateBackstagePasses<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:backstageQuality4()]</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@27406a17_50'>50</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_50'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>updateBackstagePasses<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:backstageQuality4()]</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@27406a17_52'>52</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_52'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>updateBackstagePasses<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:backstageQuality6()]</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>updateBackstagePasses<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:backstageQuality8()]</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>updateBackstagePasses<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:backstageQuality4()]</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>updateBackstagePasses<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:backstageQuality4()]</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@27406a17_53'>53</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_53'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>updateBackstagePasses<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:backstageQuality4()]</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@27406a17_56'>56</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_56'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>updateBackstagePasses<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:backstageQuality3()]</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>updateBackstagePasses<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:backstageQuality4()]</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>updateBackstagePasses<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:backstageQuality3()]</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>updateBackstagePasses<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:backstageQuality4()]</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@27406a17_57'>57</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_57'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>updateBackstagePasses<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:BackstageQuality1()]</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@27406a17_61'>61</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_61'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>updateBackstagePasses<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:BackstageSellIn3()]</span></span> Replaced integer subtraction with addition &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@27406a17_63'>63</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_63'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>updateBackstagePasses<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:backstageQuality4()]</span></span> negated conditional &rarr; KILLED</p> <p class='SURVIVED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>updateBackstagePasses<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@27406a17_69'>69</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_69'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>updateDefault<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:classicItemQuality1()]</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>updateDefault<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:classicItemQuality2()]</span></span> changed conditional boundary &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@27406a17_70'>70</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_70'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>updateDefault<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:classicItemQuality1()]</span></span> Replaced integer subtraction with addition &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@27406a17_73'>73</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_73'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>updateDefault<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:classicItemQuality3()]</span></span> Replaced integer subtraction with addition &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@27406a17_75'>75</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_75'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>updateDefault<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:classicItemQuality5()]</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>updateDefault<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:classicItemQuality6()]</span></span> negated conditional &rarr; KILLED</p> <p class='SURVIVED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>updateDefault<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>updateDefault<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:classicItemQuality1()]</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@27406a17_76'>76</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@27406a17_76'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>updateDefault<br/><b>Killed by : </b>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:classicItemQuality6()]</span></span> Replaced integer subtraction with addition &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>CONDITIONALS_BOUNDARY</li>
+<li class='mutator'>EMPTY_RETURNS</li>
+<li class='mutator'>FALSE_RETURNS</li>
+<li class='mutator'>INCREMENTS</li>
+<li class='mutator'>INVERT_NEGS</li>
+<li class='mutator'>MATH</li>
+<li class='mutator'>NEGATE_CONDITIONALS</li>
+<li class='mutator'>NULL_RETURNS</li>
+<li class='mutator'>PRIMITIVE_RETURNS</li>
+<li class='mutator'>TRUE_RETURNS</li>
+<li class='mutator'>VOID_METHOD_CALLS</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:classicItemQuality1()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:classicItemQuality6()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:classicItemQuality5()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:classicItemQuality3()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:backstageQuality4()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:BackstageSellIn4()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:backstageQuality11()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:backstageQuality5()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:BackstageSellIn3()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:backstageQuality6()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:BackstageSellIn2()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:backstageQuality3()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:BackstageQuality1()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:BackstageQuality2()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:backstageQuality10()] (10 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:backstageQuality9()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:backstageQuality8()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:backstageQuality7()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:BackstageSellIn1()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:AgedBrieSellIn4()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:AgedBrieQuality1()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:AgedBrieSellIn5()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:AgedBrieQuality2()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:AgedBrieQuality4()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:AgedBrieQuality5()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:AgedBrieSellIn1()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:AgedBrieQuality6()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:AgedBrieSellIn2()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:classicItemQuality4()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:sulfurasSellIn1()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:sulfurasQualityUpdate3()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:classicItemQuality2()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:sulfurasSellIn2()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:sulfurasQualityUpdate()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:sulfurasQualityUpdate4()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:sulfurasSellIn3()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:sulfurasQualityUpdate2()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:sulfurasSellInd3()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:AgedBrieSellIn3()] (0 ms)</li><li>com.gildedrose.GildedRoseTest.[engine:junit-jupiter]/[class:com.gildedrose.GildedRoseTest]/[method:AgedBrieQuality3()] (0 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='https://pitest.org'>PIT</a> 1.15.0
+
+</body>
+</html>
