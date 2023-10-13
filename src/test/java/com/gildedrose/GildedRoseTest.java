@@ -10,6 +10,7 @@ class GildedRoseTest {
     static final String AGED_BRIE = "Aged Brie";
     static final String BACKSTAGE_PASSES = "Backstage passes to a TAFKAL80ETC concert";
     static final String SULFURAS = "Sulfuras, Hand of Ragnaros";
+    private static final String CONJURED_BEER = "Conjured Beer";
 
     @Test
     //La qualite des items classique diminue de 1 quand quality > 0 et sellIn > 0
@@ -634,6 +635,35 @@ class GildedRoseTest {
         assertThat("foo, 0, 0", is(item.toString()));
 
     }
+
+
+    //------------------------------------------------------------
+
+    @Test
+    void conjuredBeerQuality1() {
+        final int quality = 10;
+        final int sellIn = 0;
+        final Item[] items = new Item[]{new Item(CONJURED_BEER, sellIn, quality)};
+
+        final GildedRose app = new GildedRose(items);
+        app.updateQuality();
+
+        assertThat(app.items[0].quality, is(quality - 2));
+    }
+
+     @Test
+    void conjuredBeerQuality2() {
+        final int quality = 10;
+        final int sellIn = -1;
+        final Item[] items = new Item[]{new Item(CONJURED_BEER, sellIn, quality)};
+
+        final GildedRose app = new GildedRose(items);
+        app.updateQuality();
+
+        assertThat(app.items[0].quality, is(quality - 4));
+    }
+
+    
 
 
 }
