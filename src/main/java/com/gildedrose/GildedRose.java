@@ -26,6 +26,10 @@ class GildedRose {
             case "Sulfuras, Hand of Ragnaros":
                 // Ne rien faire, car Sulfuras ne change jamais
                 break;
+            
+            case "Conjured Beer":
+                updateConjuredBeer(item);
+                break;
 
             default:
                 updateDefault(item);
@@ -73,5 +77,21 @@ class GildedRose {
         if (item.sellIn < 0 && item.quality > 0) {
             item.quality -= 1;
         }
+    }
+
+    private void updateConjuredBeer(Item item) {
+        int decreaseValue;
+        if (item.sellIn >= 0) {
+            decreaseValue = 2;
+        } else {
+            decreaseValue = 4;
+        }
+
+        if (item.quality > decreaseValue) {
+            item.quality -= decreaseValue;
+        } else {
+            item.quality = 0;
+        }
+        item.sellIn -= 1;
     }
 }

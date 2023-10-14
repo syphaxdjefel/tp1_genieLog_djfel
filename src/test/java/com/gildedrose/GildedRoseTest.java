@@ -663,6 +663,29 @@ class GildedRoseTest {
         assertThat(app.items[0].quality, is(quality - 4));
     }
 
+    @Test
+    void conjuredBeerQualityNonNegative() {
+        final int quality = 1;
+        final int sellIn = 5;
+        final Item[] items = new Item[]{new Item(CONJURED_BEER, sellIn, quality)};
+
+        final GildedRose app = new GildedRose(items);
+        app.updateQuality();
+
+        assertThat(app.items[0].quality, is(0));
+    }
+
+    @Test
+    void conjuredBeerQualityNonNegativeSellinNeg() {
+        final int quality = 2;
+        final int sellIn = -1;
+        final Item[] items = new Item[]{new Item(CONJURED_BEER, sellIn, quality)};
+
+        final GildedRose app = new GildedRose(items);
+        app.updateQuality();
+
+        assertThat(app.items[0].quality, is(0));
+    }
     
 
 
